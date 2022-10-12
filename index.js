@@ -12,8 +12,8 @@ app.set("views", path.join(__dirname, "views"));
 
 //Middleware
 // Simple request time logger
-app.use((req, res, next) => {
-	console.log("A new request received at " + Date.now());
+// app.use((req, res, next) => {
+// 	console.log("A new request received at " + Date.now());
 
 app.use(express.static(path.join(__dirname, "public")));
 app.use("/public/images", express.static(__dirname + "/public/images"));
