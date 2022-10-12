@@ -1,0 +1,110 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: right;
+}
+
+#footer {
+    height: 300px;
+    max-width: none;
+    background-color: rgb(42, 42, 42);
+}
+
+.space{
+    height: 120px;
+}
+
+.card {
+    text-align: center;
+    height: 500px;
+    position: relative;
+}
+
+#cards {
+    background-color: rgb(221, 221, 221);
+}
+
+.form {
+    background-color: rgb(221, 221, 221);
+    height: 600px
+}
+
+/* .img1 img {
+    height: 100vh;
+    overflow: hidden;
+} */
+
+/* #img{
+    
+    background-image: url("https://smesouthafrica.co.za/wp-content/uploads/2022/07/agriculture-2022-05-18-00-56-44-utc-scaled.jpg");
+    background-position: center;
+    background-size: cover;
+} */
+
+.img1{
+    height: 80vh;
+    overflow: hidden
+}
+
+.clear1{
+    content: "";
+    height: 100px;
+    background-color: rgb(221, 221, 221);
+}
+
+.clear{
+    content: "";
+    height: 50px;
+}
+
+/* .card-body{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+} */
+.card-button{
+    position: static;
+    height: 75px;
+    width: 170px;
+    margin-right: 20px;
+}
+
+
+
+.card-text{
+    text-align: justify;
+}
+.card-title{
+    text-align: justify;
+}
+
+/* .btn{
+    position:absolute;
+    bottom: 0px;
+    
+    text-align: center;
+} */
+
+.container{
+    width: 80%;
+    height: 60%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right:10%;
+    padding-top: 20px;
+    background-color: rgb(221, 221, 221);
+    position: relative;
+}
+
+.container1{
+    margin-left: 10px;
+    text-align: left;
+}
+
+.details{
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    text-align: left;
+    padding: 10px;
+}
+
